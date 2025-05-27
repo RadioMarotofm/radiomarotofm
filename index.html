@@ -16,7 +16,7 @@
             font-family: 'Segoe UI', sans-serif;
         }
         header {
-            background-color: #001aff;
+            background-color: #1f31d3;
             padding: 20px;
             text-align: center;
         }
@@ -61,7 +61,7 @@
         }
 
         .play-button:hover {
-            background-color: #e63e3e;
+            background-color: #cc6161;
             transform: scale(1.05);
         }
 
@@ -102,6 +102,32 @@
                 font-size: 16px;
             }
         }
+
+.instagram-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffffff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.5s, transform 0.2s, box-shadow 0.5s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.instagram-button:hover {
+    background-color: #c7b3ba;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.instagram-icon {
+    width: 30px;
+    height: 30px;
+}
     </style>
 </head>
 <body>
@@ -130,10 +156,20 @@
         </div>
 
         <div class="social">
-            <h3>🌐 Siga nas redes sociais</h3>
-            <a href="https://www.instagram.com/marotofm_104.9?igsh=MWNuZW1zbmNwNDdzZw%3D%3D" target="_blank">📸</a>
-            <a href="https://facebook.com" target="_blank">📘</a>
-            <a href="https://api.whatsapp.com/send?phone=5581991297384&fbclid=PAQ0xDSwKh_xRleHRuA2FlbQIxMQABp1VVVCByZE2Q5lSPhS-p36CV4ig2XfNTYzOjwkVYXUrKZM4dROgIHXsupRXi_aem_H3Fk1ep8LSAOkpv7N4umxw" target="_blank">💬</a>
+            <h3>🌐 Siga nas redes sociais clicando abaixo</h3>
+<a class="instagram-button" href="https://www.instagram.com/marotofm_104.9?igsh=MWNuZW1zbmNwNDdzZw%3D%3D" target="_blank">
+    <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    
+</a>
+            <a class="instagram-button" href="https://facebook.com" target="_blank">
+    <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+</a>
+
+            
+<a class="instagram-button" href="https://api.whatsapp.com/send?phone=5581991297384" target="_blank">
+    <img class="instagram-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+
         </div>
     </div>
 
